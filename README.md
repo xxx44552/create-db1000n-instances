@@ -21,7 +21,7 @@
 
     sudo docker ps
     
-###### Видалити контейнери по діапазону (bash ./remove.sh 1 100 - видалить всі) 
+###### Видалити контейнери по діапазону
     
     wget https://raw.githubusercontent.com/xxx44552/create-db1000n-instances/main/remove.sh
 
