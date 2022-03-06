@@ -8,5 +8,5 @@ sudo swapon /swapfile
 for (( c=$1; c<=$2; c++ ))
 do  
    sudo docker run --restart=always --name=db1000n$((c)) --detach --pull=always ghcr.io/arriven/db1000n:latest
-   echo "Started db1000n$c docker <------------"
+   echo "Started db1000n$c container <------------"
 done
