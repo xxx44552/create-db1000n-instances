@@ -16,3 +16,13 @@
 ###### Швидкість інтернету
 
     speedtest
+
+###### Список запущених контейнерів
+
+    sudo docker ps
+    
+###### Видалити контейнери по діапазону (bash ./remove.sh 1 100 - видалить всі) 
+    
+    wget https://raw.githubusercontent.com/xxx44552/create-db1000n-instances/main/remove.sh
+
+    bash ./remove.sh 70 100
